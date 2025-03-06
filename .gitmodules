@@ -1,0 +1,3 @@
+[submodule "src/pycentauro/iit-centauro-ros-pkg"]
+	path = src/pycentauro/iit-centauro-ros-pkg
+	url = git@github.com:ADVRHumanoids/iit-centauro-ros-pkg.git
