@@ -5,5 +5,5 @@ model_path = pkgutil_get_path("pycentauro","iit-centauro-ros-pkg/centauro_urdf/u
 urdf_string = compile_xacro_string( model_definition_string=Path(model_path).read_text(),
                                     model_kwargs={"realsense":"false",
                                                   "velodyne" :"false"},
-                                    extra_pkg_paths={   "centauro_urdf" : pkgutil_get_path("iit-centauro-ros-pkg","centauro_urdf")})
+                                    extra_pkg_paths={"centauro_urdf" : pkgutil_get_path("pycentauro","iit-centauro-ros-pkg/centauro_urdf")})
 print(urdf_string)
